@@ -1,2 +1,2 @@
-# code-template
-A simple usable template for your code
+# Code Template
+A simple usable template for your code.
