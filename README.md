@@ -18,6 +18,7 @@ Feel free to use code helper. Tutorial & Example not included 😆
 - `ThousandConverter.js`, convert input text to number with separator (thousand)
 - `IsNullOrWhiteSpace.js`, determine whether a string is null, empty, or whitespace only
 - `GetParamFromUrl.js`, get parameter from current url, then return parameted based on input
+- `CapitalizeFirstLetter.js`, change first letter in a word or phase to uppercase
 
 ## MySQL
 
