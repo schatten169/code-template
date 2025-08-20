@@ -6,7 +6,7 @@ Feel free to use code helper. Tutorial & Example not included 😆
 
 ## PHP
 
-- `timestamp_to_date.php`, convert timestamp to date
+- `time_formatter.php`, convert time to date with format using php extension intl
 - `is_null_or_whitespace.php`, determine whether a string is null, empty, or whitespace only
 - `usefull_array_function.php`, some usefull code to manipulate array data
 - `is_contain_word.php`, determine whether a string is contain a word at any postion
