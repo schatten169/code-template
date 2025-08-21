@@ -19,6 +19,10 @@ Feel free to use code helper. Tutorial & Example not included 😆
 - `IsNullOrWhiteSpace.js`, determine whether a string is null, empty, or whitespace only
 - `GetParamFromUrl.js`, get parameter from current url, then return parameted based on input
 - `CapitalizeFirstLetter.js`, change first letter in a word or phase to uppercase
+- `GetBreakpoint.js`, determine browser width using javascript
+- `SidebarState.js`, handle sidebar state for responsive view
+- `Swal2BlockUI.js`, custom block ui for blocking using SweetAlert2
+- `Swal2Toastr.js`, custom toastr notification for blocking using SweetAlert2
 
 ## MySQL
 
