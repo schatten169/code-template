@@ -5,6 +5,18 @@
  * TODO: change class
  */
 
+
+/**
+ * How to use option
+ * 
+ * var option = { ...toast };
+ * option.timer = 2000;
+ * option.didClose = function() {
+ *      // did something after toast done
+ *      alert('hohoho');
+ * };
+ */
+
 /* Toast object config */
 let ToastConfig = {
     toast: true,
@@ -17,12 +29,9 @@ let ToastConfig = {
 };
 
 /* Toastr function */
-let Toastr = new Object({
-    info: (message = "", timer = 5000) => {
-        var t = { ...ToastConfig };
-        t.timer = timer;
-
-        Swal.mixin(t).fire({
+let toastr = new Object({
+    info: (message = "", option = { ...toast }) => {
+        Swal.mixin(option).fire({
             icon: "info",
             text: message,
             customClass: {
@@ -32,11 +41,8 @@ let Toastr = new Object({
             }
         });
     },
-    success: (message = "", timer = 5000) => {
-        var t = { ...ToastConfig };
-        t.timer = timer;
-
-        Swal.mixin(t).fire({
+    success: (message = "", option = { ...toast }) => {
+        Swal.mixin(option).fire({
             icon: "success",
             text: message,
             customClass: {
@@ -45,11 +51,8 @@ let Toastr = new Object({
             }
         });
     },
-    warning: (message = "", timer = 5000) => {
-        var t = { ...ToastConfig };
-        t.timer = timer;
-
-        Swal.mixin(t).fire({
+    warning: (message = "", option = { ...toast }) => {
+        Swal.mixin(option).fire({
             icon: "warning",
             text: message,
             customClass: {
@@ -59,11 +62,8 @@ let Toastr = new Object({
             }
         });
     },
-    error: (message = "", timer = 5000) => {
-        var t = { ...ToastConfig };
-        t.timer = timer;
-
-        Swal.mixin(t).fire({
+    error: (message = "", option = { ...toast }) => {
+        Swal.mixin(option).fire({
             icon: "error",
             text: message,
             customClass: {
@@ -72,11 +72,8 @@ let Toastr = new Object({
             }
         });
     },
-    question: (message = "", timer = 5000) => {
-        var t = { ...ToastConfig };
-        t.timer = timer;
-
-        Swal.mixin(t).fire({
+    question: (message = "", option = { ...toast }) => {
+        Swal.mixin(option).fire({
             icon: "question",
             text: message,
         });
