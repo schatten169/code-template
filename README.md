@@ -10,6 +10,8 @@ Feel free to use code helper. Tutorial & Example not included 😆
 - `is_null_or_whitespace.php`, determine whether a string is null, empty, or whitespace only
 - `usefull_array_function.php`, some usefull code to manipulate array data
 - `is_contain_word.php`, determine whether a string is contain a word at any postion
+- `result_helper.php`, general result message that will help you return data (with Indonesian language)
+- `result_datatable_helper.php`, general result for datatable that will help you return data (with Indonesian language)
 
 ## Javascript
 
