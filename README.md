@@ -12,6 +12,7 @@ Feel free to use code helper. Tutorial & Example not included 😆
 - `is_contain_word.php`, determine whether a string is contain a word at any postion
 - `result_helper.php`, general result message that will help you return data (with Indonesian language)
 - `result_datatable_helper.php`, general result for datatable that will help you return data (with Indonesian language)
+- `name_splitter`, to split and limit then print a string based on max length
 
 ## Javascript
 
