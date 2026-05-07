@@ -30,3 +30,4 @@ Feel free to use code helper. Tutorial & Example not included 😆
 ## MySQL
 
 - `userfull_mysql_function`, some usefull mysql code that give you a breeze
+- `netcore_model_generator`, tired of creating netcore model manually? run this query to easy generate code based on table
