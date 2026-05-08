@@ -13,6 +13,8 @@ Feel free to use code helper. Tutorial & Example not included 😆
 - `result_helper.php`, general result message that will help you return data (with Indonesian language)
 - `result_datatable_helper.php`, general result for datatable that will help you return data (with Indonesian language)
 - `name_splitter`, to split and limit then print a string based on max length
+- `curl_example`, simple example how to use curl in php
+- `nusoap_example`, simple example how to use nusoap in php
 
 ## Javascript
 
