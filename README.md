@@ -33,3 +33,7 @@ Feel free to use code helper. Tutorial & Example not included 😆
 
 - `userfull_mysql_function`, some usefull mysql code that give you a breeze
 - `netcore_model_generator`, tired of creating netcore model manually? run this query to easy generate code based on table
+
+## Html
+
+- `404`, usable default 404 error page with some lottie animation
