@@ -1,0 +1,25 @@
+<!-- example image -->
+<img src="blank.png" class="w-100 d-block object-fit-cover mh-250px" onclick="showModalImage();">
+
+<!-- modal, add bottom section of body just before script tag -->
+<div class="modal fade" id="modalImage" tabindex="-1" role="dialog" aria-labelledby="modalImageTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg modal-fullscreen-lg-down h-auto"
+        role="document">
+        <div class="modal-content">
+            <div class="modal-body p-2">
+                <img alt="Image" id="modalImageContent" class="img-fluid"
+                    onclick="window.open($(this).attr('src'), '_blank');">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- add to bottom of script tag stack -->
+<script>
+    function showModalImage(e) {
+        var $src = $(e).attr('src');
+        $('#modalImageContent').attr('src', $src);
+        $('#modalImage').modal('show');
+    }
+</script>

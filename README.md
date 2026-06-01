@@ -31,9 +31,11 @@ Feel free to use code helper. Tutorial & Example not included 😆
 
 ## MySQL
 
-- `userfull_mysql_function`, some usefull mysql code that give you a breeze
-- `netcore_model_generator`, tired of creating netcore model manually? run this query to easy generate code based on table
+- `userfull_mysql_function.sql`, some usefull mysql code that give you a breeze
+- `netcore_model_generator.sql`, tired of creating netcore model manually? run this query to easy generate code based on table
 
 ## Html
 
-- `404`, usable default 404 error page with some lottie animation
+- `404.html`, usable default 404 error page with some lottie animation
+- `Bootstrap 5` / `image_with_floating_button.html`, example how to create button stacked above an image
+- `Bootstrap 5` / `show_image_using_modal.html`, example how to show image using popup modal
