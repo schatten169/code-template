@@ -29,6 +29,7 @@ Note: Tutorial & Example not included 😆
 - `SidebarState.js`, handle sidebar state for responsive view
 - `Swal2BlockUI.js`, custom block ui for blocking using SweetAlert2
 - `Swal2Toastr.js`, custom toastr notification for blocking using SweetAlert2
+- `ScrollToTop.js`, simple code to scroll page back to top (for use with floating action button)
 
 ## MySQL
 
