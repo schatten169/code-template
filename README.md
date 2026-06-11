@@ -1,6 +1,7 @@
 # Overview
 
-Feel free to use code helper. Tutorial & Example not included 😆
+Feel free to use code helper. Might not as smart, clean, and useful as AI but these mine are copy-paste-able.
+Note: Tutorial & Example not included 😆
 
 # What's Include?
 
@@ -39,3 +40,7 @@ Feel free to use code helper. Tutorial & Example not included 😆
 - `404.html`, usable default 404 error page with some lottie animation
 - `Bootstrap 5` / `image_with_floating_button.html`, example how to create button stacked above an image
 - `Bootstrap 5` / `show_image_using_modal.html`, example how to show image using popup modal
+
+## Laravel
+- `Traits` / `HasSoftDeleteFlag.php`, model trait to extend soft delete function by update who deleted it to updated_by column and update column is_deleted
+- `Traits` / `HasUserStamp.php`, model trait to extend create and update function by update who created and updated it to specific column
