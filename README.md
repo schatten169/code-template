@@ -41,6 +41,7 @@ Note: Tutorial & Example not included 😆
 - `404.html`, usable default 404 error page with some lottie animation
 - `Bootstrap 5` / `image_with_floating_button.html`, example how to create button stacked above an image
 - `Bootstrap 5` / `show_image_using_modal.html`, example how to show image using popup modal
+- `AdminLTE 4` / `pages` / `index.html`, my custom adminlte template (for you to focusing on content). use this as basic code.
 
 ## Laravel
 - `Traits` / `HasSoftDeleteFlag.php`, model trait to extend soft delete function by update who deleted it to updated_by column and update column is_deleted
