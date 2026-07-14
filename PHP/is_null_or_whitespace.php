@@ -1,7 +1,7 @@
 <?php
 
 function IsNullOrWhiteSpace($str) {
-  return $str === null || preg_match("/^ *$/", $str) == true;
+  return !isset($str) || trim($str) === '';
 }
 
 echo IsNullOrWhiteSpace(" ");
